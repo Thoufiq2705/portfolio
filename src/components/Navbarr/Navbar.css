@@ -1,0 +1,124 @@
+.navbar{
+    width: 100vw;
+    height: 6rem;
+    padding: 1rem 4rem; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 40);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.logoimg{
+    object-fit: cover;
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.listitem {
+    margin: 0 2rem;
+    font-size: 1rem;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.listitem:hover{
+    border-bottom: 3px solid #004AAD;
+}
+.listitem:active{
+    border-bottom: 2px solid #004AAD;
+    opacity: .9;
+}
+.listitem:focus{
+    border-bottom: 2px solid #004AAD;
+    opacity: .9;
+}
+.contactbtn {
+    font-size: 1rem;
+    color: black;
+    padding: .8rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+}
+.contactimg {
+    width: 1.2rem;
+    outline: none;
+    border: none;
+    object-fit: cover;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.contactbtn:hover{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    scale: 1.1;
+    opacity: 0.9;
+}
+.mobmenu{
+    position: absolute;
+    top: 7rem;
+    right: 3rem;
+    height: fit-content;
+    min-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 1rem;
+    z-index: 2;
+    border-radius: 1rem;
+    display: none;
+    background-color: rgb(40, 40, 40);
+}
+.moblist{
+    margin: 0 auto;
+    display: block;
+    font-size: 1rem;
+    padding: 12px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer; 
+}
+.moblist:hover{
+    border-bottom: 3px solid #004AAD;
+    color: #fff041;
+}
+.moblist:active{
+    border-bottom: 2px solid #004AAD;
+    opacity: .9;
+}
+.togleimg{
+    width: 3rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (min-width:720px) and (max-width:870px) {
+    .contactbtn{
+        display: none;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .logoimg{
+        width:30vw;
+        margin-right: 5rem;
+    }
+    .listitems{
+        display: none;
+    }
+    .togleimg{
+        display: block;
+    }
+    .contactbtn{
+        display: none;
+    }
+}

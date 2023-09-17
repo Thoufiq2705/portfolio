@@ -1,0 +1,120 @@
+#about{
+    height: calc(100vh - -6rem) ;
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.span{
+    color: #fff041;
+}
+.abtxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.abtxt h2 {
+    font-size: 5.5rem;
+    padding: 2rem 0;
+}
+.abtxt p{
+    width: 70%;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 1rem;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+.abcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    margin: 6rem auto;
+}
+.box {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 15px;
+    background-color: rgb(40, 40, 40);
+    margin: .8rem;
+    padding: 2rem;
+}
+.box img{
+    object-fit: cover;
+    width: 4rem;
+    margin-right: 2.2rem;
+}
+.box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.abdesign h2{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.abdesign p{
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+/* @media screen and (min-width:480px)and (max-width:840px) {
+    #about{
+        margin-top: -20rem;
+    }    
+} */
+@media screen and (max-width:480px) {
+    #about{
+        height: calc(100vh - 6rem) ;
+        width: 95vw;
+        margin: 10rem auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .abtxt h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .abtxt{
+        margin-bottom: -3rem;
+    }
+    .abcontent{
+        display: block;
+    }
+    .abtxt p {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0 auto;
+        width: 90vw;
+    }
+    .box div{
+        display: inline-block;
+    }
+    .box h2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .box p{
+        font-size: .8rem;
+        text-align: center;
+    }
+    .box {
+        display: block;
+        margin: .8rem auto;
+    }
+    .box img {
+        margin: 10px 50px;
+        width: 50%;
+    }
+}

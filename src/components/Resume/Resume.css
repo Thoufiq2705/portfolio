@@ -1,0 +1,93 @@
+#resume{
+    weight:100vh ;
+    width: 95vw;
+    max-width: 90%;
+    margin: 10rem auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.rcontent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.rcontent h2{
+    font-size: 3rem;
+    padding: 1rem 0;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+}
+.rcontent p{
+    font-size: 1rem;
+    text-align: left;
+    width: 60%;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+.rimg img{
+    height: 25rem;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+.rimg img:hover{
+    scale: 1.05;
+    opacity: .8;
+}
+.download{
+    font-size: 1rem;
+    color: black;
+    margin-top: 1.5rem;
+    padding: .8rem 3rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    border-radius: 25px;
+    text-transform: lowercase;
+    transition: all .2s ease-in-out;
+}
+.download:hover{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    scale: 1.1;
+    opacity: 0.9;
+}
+.span{
+    color: #fff041;
+}
+
+@media screen and (max-width:650px) {
+    #resume {
+        display: block;
+    }
+    .rcontent{
+        position: relative;
+    }
+    .rcontent h2{
+        text-align: center;
+        z-index: 3;
+        font-size: 2.3rem;
+        margin-top: -6rem;
+    }
+    .rcontent p{
+        display: none;
+    }
+    .download{
+        z-index: 3;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        bottom: -500px;
+    }
+    .rimg{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .rimg img{
+        text-align: center;
+        margin-left: -3rem;
+    }
+}
