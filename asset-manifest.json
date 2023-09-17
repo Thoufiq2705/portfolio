@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8d594c28.css",
+    "main.js": "/portfolio/static/js/main.cc65b5cf.js",
+    "static/media/profile-pic (3).png": "/portfolio/static/media/profile-pic (3).9fccbebc82c824c4f7d3.png",
+    "static/media/Thoufiq Resume.jpg": "/portfolio/static/media/Thoufiq Resume.e9b2e4d591b5ec155745.jpg",
+    "static/media/portfolio-6.png": "/portfolio/static/media/portfolio-6.4a10fac7d271e87859e9.png",
+    "static/media/portfolio-2.png": "/portfolio/static/media/portfolio-2.33d06b368b4e6395030e.png",
+    "static/media/portfolio-4.png": "/portfolio/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
+    "static/media/portfolio-1.png": "/portfolio/static/media/portfolio-1.b33adf772d54ab33e953.png",
+    "static/media/portfolio-5.png": "/portfolio/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
+    "static/media/portfolio-3.png": "/portfolio/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
+    "static/media/Github Png (7).png": "/portfolio/static/media/Github Png (7).39188d04387029add35d.png",
+    "static/media/Github Png (5).png": "/portfolio/static/media/Github Png (5).9cbe25e0a1b92c279aa8.png",
+    "static/media/ui-design.png": "/portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/portfolio/index.html",
+    "main.8d594c28.css.map": "/portfolio/static/css/main.8d594c28.css.map",
+    "main.cc65b5cf.js.map": "/portfolio/static/js/main.cc65b5cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d594c28.css",
+    "static/js/main.cc65b5cf.js"
+  ]
+}
