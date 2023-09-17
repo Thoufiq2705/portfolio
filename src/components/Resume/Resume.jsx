@@ -9,7 +9,7 @@ const Resume = () => {
         <div className="rcontent">
             <h2>Download <span className='span'>Resume</span></h2>
             <p>Welcome to my resume download section. Here, you can find detailed information about my qualifications and professional experience. Feel free to download my resume to learn more about my skills and expertise.</p>
-            <a href="https:https://drive.google.com/file/d/1st7_BYVoIfIPOjTtXQGcg3fcSRKkYAZF/view?usp=drive_link" target="_blank"><button className='download'>Download</button></a>
+            <button className='download'>Download</button>
         </div>
         <div className="rimg">
             <img src={resume} alt="" />
