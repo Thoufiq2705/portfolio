@@ -142,3 +142,9 @@
         width: 90vw;
     }
 }
+.projectname{
+    background-color: #fff;
+    color: #004AAD;
+    padding: 5px;
+    border-radius: 10px;
+}

@@ -20,28 +20,28 @@ const Portfolio = () => {
         <div className="prjimg">
           <div className="image">
                <img src={Pro1} alt="" className='imgmain'/>
-               <a href="https://thoufiq2705.github.io/weather-app/" target="_blank">
+               <a href="https://thoufiq2705.github.io/react-movie-finder/" target="_blank">
                <div className="content">
-                <h2 className='imgcontent'>Click me to view Project</h2>
+                <h2 className='imgcontent'>Click me to view my Project</h2>
                </div></a> 
           </div>
           <div className="image">
             <img src={Pro2} alt="" className='imgmain'/>
-            <a href="https://thoufiq2705.github.io/TicTacToe-Game/" target="_blank">
+            <a href="https://thoufiq2705.github.io/weather-app/" target="_blank">
             <div className='content'>
                 <h2 className='imgcontent'>Click me to view Project</h2>
             </div></a>
           </div>
           <div className="image">
             <img src={Pro3} alt="" className='imgmain'/>
-            <a href="https://thoufiq2705.github.io/food-recipe-generator/" target="_blank">
+            <a href="https://thoufiq2705.github.io/TicTacToe-Game/" target="_blank">
             <div className='content'>
                 <h2 className='imgcontent'>Click me to view Project</h2>
             </div></a>
           </div>
           <div className="image">
             <img src={Pro4} alt="" className='imgmain'/>
-            <a href="https://thoufiq2705.github.io/rock-paper-scissor-game/" target="_blank">
+            <a href="https://thoufiq2705.github.io/food-recipe-generator/" target="_blank">
             <div className='content'>  
               <h2 className='imgcontent'>Click me to view Project</h2>
             </div></a>
