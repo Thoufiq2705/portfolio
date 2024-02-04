@@ -9,5 +9,6 @@
 body {
     background-color: rgb(30, 30, 30);
     color: white;
-    overflow-x: hidden;
+    overflow: hidden;
+    overflow-y:auto;
 }
